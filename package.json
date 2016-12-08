@@ -2,7 +2,7 @@
   "name": "machinetranslation",
   "version": "1.0.0",
   "description": "Statistical Machine Translation app as a part of Creative Explaination",
-  "main": "index.js",
+  "main": "translate.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,5 +10,9 @@
     "Translation"
   ],
   "author": "Hammad Siddiqui",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.5",
+    "express": "^4.14.0"
+  }
 }
